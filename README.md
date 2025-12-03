@@ -191,7 +191,6 @@ Các tính năng có thể mở rộng:
 ---
 
 **Phát triển bởi:** Nguyễn Văn Hưởng | CNTT 17-11
-
 **Năm:** 2025  
 **Phiên bản:** 1.1
 
