@@ -8,6 +8,54 @@ Hệ thống quản lý sinh viên có 3 tác nhân tương ứng với 3 vai tr
 **Database:** MySQL  
 **Công nghệ:** HTML, CSS, JavaScript, MySQL
 
+## GIAO DIỆN HỆ THỐNG
+
+### Giao diện Admin
+- Giao diện đăng nhập
+<p align="center">  
+   <img src="qlsinhvien/images/SV_index.png" alt="Ảnh minh họa" width="850" height="480">  
+</p>
+
+- Giao diện ashboard
+<p align="center">  
+   <img src="qlsinhvien/images/Admin_dashboard.png" alt="Ảnh minh họa" width="850" height="480">  
+</p>
+
+- Giao diện Quản lý người dùng
+<p align="center">  
+   <img src="qlsinhvien/images/Admin_qlnguoidung.png" alt="Ảnh minh họa" width="850" height="480">  
+</p>
+
+- Giao diện Quản lý học phần
+<p align="center">  
+   <img src="qlsinhvien/images/Admin_qlhocphan.png" alt="Ảnh minh họa" width="850" height="480">   
+   <img src="qlsinhvien/images/Admin_qlhocphan2.png" alt="Ảnh minh họa" width="850" height="480">  
+</p>
+
+- Giao diện Quản lý thời khóa biểu
+<p align="center">  
+   <img src="qlsinhvien/images/Admin_qlTKB.png" alt="Ảnh minh họa" width="850" height="480">   
+   <img src="qlsinhvien/images/Admin_qlTKB2.png" alt="Ảnh minh họa" width="850" height="480">  
+</p>
+
+- Giao diện Quản lý học phần
+<p align="center">  
+   <img src="qlsinhvien/images/Admin_thongke.png" alt="Ảnh minh họa" width="850" height="480">   
+</p>
+
+### Giao diện Giảng viên
+
+- Giao diện ashboard
+<p align="center">  
+   <img src="qlsinhvien/images/GV_dashboard.png" alt="Ảnh minh họa" width="850" height="480">  
+</p>
+
+### Giao diện Sinh viên
+
+- Giao diện ashboard
+<p align="center">  
+   <img src="qlsinhvien/images/SV_dashboard.png" alt="Ảnh minh họa" width="850" height="480">  
+</p>
 ## CẤU TRÚC DỰ ÁN
 
 ```
@@ -169,6 +217,13 @@ Hệ thống đã tạo sẵn các tài khoản mẫu để test:
 - Icons sử dụng Font Awesome 6.4.0
 - Database sử dụng charset utf8mb4 để hỗ trợ tiếng Việt
 
+## Mẹo nhỏ
+
+- Trong thư mục htdocs, mở file index chỉnh phần "/dashboard/" thành "/qlsinhvien/" để khi bật Admin ở Xampp thì trang web sẽ tự động truy cập vào thư mục qlsinhvien
+<p align="center"> 
+  <img src="qlsinhvien/images/htdocs trick.png" alt="Ảnh mẹo dường dẫn" width="450" height="240">
+</p>
+
 ## HỖ TRỢ
 
 Nếu gặp vấn đề:
@@ -190,7 +245,7 @@ Các tính năng có thể mở rộng:
 
 ---
 
-**Phát triển bởi:** Nguyễn Văn Hưởng | CNTT 17-11
+**Phát triển bởi:** Nguyễn Văn Hưởng | CNTT 17-11  
 **Năm:** 2025  
 **Phiên bản:** 1.1
 
